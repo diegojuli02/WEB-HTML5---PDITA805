@@ -1,0 +1,26 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+
+p {
+font-family: Arial, sans-serif;
+
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+p.destaque {
+    font-weight: bold;
+}
+
+strong.destaque {
+    color: red;
+}
