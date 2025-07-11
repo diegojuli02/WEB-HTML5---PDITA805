@@ -1,0 +1,40 @@
+body {
+    width: 990px;
+    margin: 0 auto;
+ font-family: Arial, Arial, Helvetica, sans-serif;
+ background-color: rgba(241, 76, 76, 0.199);
+ text-decoration: none;
+ color: rgb(2, 1, 0);
+}
+a :hover{
+color: blueviolet;
+}
+p {
+    text-indent: 2em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.intro {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr { 
+    font-variant: small-caps;
+}
+
