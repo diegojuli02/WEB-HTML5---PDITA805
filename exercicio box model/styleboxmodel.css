@@ -1,0 +1,64 @@
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto; 
+}
+
+.introducao {
+  height: 550px;
+  background-color: #f0f0f0;
+  padding: 1em;
+}
+
+
+#design-archives {
+  display: none;
+}
+
+
+.cabecalho {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.titulo {
+  padding-left: 1em;
+}
+
+.subtitulo {
+  margin-right: 1em;
+}
+
+
+.menu ul {
+  list-style: none; 
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  margin: 1em 0;
+}
+
+
+.rodape {
+  background-color: #111;
+  color: white;
+  padding: 1em;
+  margin: 4% 0;
+  text-align: center;
+}
+
+.rodape a {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
