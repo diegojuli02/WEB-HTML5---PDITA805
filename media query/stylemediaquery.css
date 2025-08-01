@@ -1,0 +1,36 @@
+@media ( max-width: 768px) {
+    #design-selection {
+        position: static;
+        float: none;
+        margin: 0;
+    }
+    
+    .explanation {
+        border-right: none;
+    }
+
+    .page-wrapper {
+        flex-direction: column;
+    }
+
+    header {
+        height: auto;
+    }
+
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .banner {
+        background-color: white;
+        color: black;
+    }
+}
